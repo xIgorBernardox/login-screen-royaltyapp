@@ -1,0 +1,14 @@
+main .container {
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 0 40px 40px 40px;
+  transform: translate(-50%, -50%);
+  background: rgba( 247, 246, 247, 0.1 );
+  backdrop-filter: blur( 0.5px );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgb(179, 0, 255) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  -webkit-backdrop-filter: blur( 0.2px );
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: absolute;
+}
